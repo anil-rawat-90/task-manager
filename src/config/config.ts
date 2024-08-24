@@ -7,7 +7,7 @@ export const config = {
     RUN_ENV: env,
     NODE_HOST: process.env.HOST || "127.0.0.1",
     APP_PORT: process.env.APP_PORT,
-    SERVICE_NAME: "luna-service-sleep",
+    SERVICE_NAME: "task-manager",
     mongo: {
         url: process.env.MONGODB_URI || "",
     },
